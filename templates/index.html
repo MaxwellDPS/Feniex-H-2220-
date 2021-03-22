@@ -6028,7 +6028,13 @@ Created using IcoMoon - icomoon.io
 
 <body class="">
   <div class="wrapper ">
-
+    <script>
+        function set(EP) {
+          var xhttp = new XMLHttpRequest();
+          xhttp.open("GET", "/"+EP, true);
+          xhttp.send();
+        }
+        </script>
     <div class="" id="main-panel">
    
       <div class="panel-header">
@@ -6078,13 +6084,7 @@ Created using IcoMoon - icomoon.io
   </div>
   <!--   Core JS Files   -->
 
-<script>
-function set(EP) {
-  var xhttp = new XMLHttpRequest();
-  xhttp.open("GET", "/"+EP, true);
-  xhttp.send();
-}
-</script>
+
 
 
   <script>
