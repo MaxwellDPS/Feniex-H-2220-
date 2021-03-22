@@ -1,0 +1,18 @@
+<html>
+<body>
+
+<div id="demo">
+<h1>The XMLHttpRequest Object</h1>
+<button type="button" onclick="set('highway')">Change Content</button>
+</div>
+
+<script>
+function set(EP) {
+  var xhttp = new XMLHttpRequest();
+  xhttp.open("GET", "/"+EP, true);
+  xhttp.send();
+}
+</script>
+
+</body>
+</html>
